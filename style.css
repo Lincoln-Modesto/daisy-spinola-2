@@ -288,6 +288,10 @@ a {
     padding: 0;
   }
 
+  li {
+    padding: 0;
+  }
+
   .container2-section2 li {
     font-size: 1.4rem;
     margin: 0 20px;
@@ -295,7 +299,6 @@ a {
 
   .container3-section2 {
     width: 100%;
-    padding: 10px;
   }
  
   .container2-section2 h2 {
@@ -409,7 +412,7 @@ a {
 @media (max-width: 509px) {
 
   .section3 {
-    height: 850px;
+    height: 880px;
     flex-direction: column;
     align-items: center;
   }
@@ -599,7 +602,7 @@ a {
   }
 
   .background-section4 {
-    height: 900px;
+    height: 930px;
   }
 
   .container2-section4 { 
@@ -1058,7 +1061,7 @@ a {
 
 /*==================section7==================*/
 .section7 {
-  background-image: url("imgs/img-section7\ \(2\).jpg");
+  background-image: url("imgs/Lp\ .png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
