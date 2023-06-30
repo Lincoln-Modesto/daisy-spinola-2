@@ -53,7 +53,7 @@ html {
   background-image: url("imgs/hero.PNG");
   background-size: cover;
   background-attachment: fixed;
-  height: 900px;
+  height: 930px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,7 +201,7 @@ a {
 
 .section2 {
   background-color: #111111;
-  height: 800px;
+  height: 1000px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -568,7 +568,11 @@ a {
 /*============section 4==============*/
 .background-section4 {
   width: 100%;
-  height: 880px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-image: linear-gradient(
     to bottom,
     #cccccc,
@@ -601,7 +605,6 @@ a {
   font-weight: 400;
   font-style:  inherit;
   text-align: center;
-  margin-top: 10px;
   font-size: 1.7rem;
   line-height: 30px;
   font-weight: 100;
@@ -624,8 +627,9 @@ a {
 
 /* Configuração do tamanho das imagens todas com o mesmo padrão */
 .container2-section4 img {
-  width: 580px;
-  padding: 10px 20px;
+  width: 520px;
+  height: 180px;
+  padding: 10px 40px;
   object-fit: cover;
 }
 
@@ -798,7 +802,7 @@ a {
 
 .h4-section5 {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 20;
+  font-weight: 200;
   color: #fff;
   font-size: 1.6rem;
 }
@@ -943,7 +947,7 @@ a {
 
 /*============section6==============*/
 .section6 {
-  background-color: #111111;
+  background-color: #000;
   height: 900px;
   width: 100%;
   display: flex;
@@ -1001,9 +1005,9 @@ a {
   font-size: large;
   font-weight: 200;
   text-align: end;
-  color: #f1f1f1;
   padding: 20px 0;
-  font-size: 2.7rem;
+  color: #fff;
+  font-size: 1.6rem;
 }
 
 .h4-2-section6 {
@@ -1153,8 +1157,8 @@ a {
 }
 
 .img2-section7 {
-  width: 570px;
-  height: 620px;
+  width: 520px;
+  height: 575px;
 }
 
 @media (max-width: 576px) { 
@@ -1637,11 +1641,11 @@ a {
 /*===================section10==============*/
 
 .section10 {
-  background-image: url("imgs/hero-footer.PNG");
+  background-image: url("imgs/hero-footer2.PNG");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 1000px;
+  height: 950px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1649,7 +1653,7 @@ a {
 }
 
 .section10 div {
-  margin-top: 400px;
+  margin-top: 360px;
 }
 
 .btn-3 {
@@ -1777,7 +1781,7 @@ a {
   }
 
   .section10 div {
-    margin-top: 350px;
+    margin-top: 320px;
   }
   
 }
